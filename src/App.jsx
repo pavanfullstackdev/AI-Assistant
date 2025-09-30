@@ -15,7 +15,7 @@ import {
   TooltipTrigger,
   TooltipProvider,
 } from "@/components/ui/tooltip";
-const API_KEY = "AIzaSyD_fDls_ChL7U3dnBKveCpz5jgx7PK0-B4";
+const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
 
 const App = () => {
   const [message, setMessage] = useState("");
